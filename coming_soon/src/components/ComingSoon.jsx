@@ -1,6 +1,9 @@
 //import React from 'react';
 import React, { useEffect } from 'react';
 import './ComingSoon.css'; // Import the custom CSS for animations
+import universityLogo from '../assets/bu-logo.png';
+import clubLogo from '../assets/club-logo.png';
+
 
 const ComingSoon = () => {
 
@@ -14,6 +17,13 @@ const ComingSoon = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-black text-white overflow-hidden">
+      
+      {/* Club Logo */}
+      <img src={clubLogo} alt="Club Logo" className="logo top-left" />
+
+      {/* University Logo */}
+      <img src={universityLogo} alt="University Logo" className="logo top-right" />
+      
       {/* Background Animation */}
       <div className="area">
         <ul className="circles">
