@@ -3,6 +3,17 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+.handjet-custom {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Adjust weight as needed */
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
 /* Background animation */
 .background {
   background: #4e54c8;
@@ -350,7 +361,7 @@
 
 .logo {
   position: absolute;
-  width: 300px; /* Adjust size as needed */
+  /*width: 300px; /* Adjust size as needed */
   padding: 20px;
   height: auto;
   z-index: 1;
@@ -360,11 +371,14 @@
   top: 20px;
   left: 20px;
   padding-top: 0px;
+  width: 250px;
 }
 
 .top-right {
   top: 20px;
   right: 20px;
+  padding-top: 0px;
+  width: 400px;
 }
 
 .icon i {
@@ -396,15 +410,19 @@
 }
 
 .coming-soon {
-  font-size: 12rem; /* Adjust size as needed */
+  font-size: 16rem; /* Adjust size as needed */
   font-weight: bold;
-  color: #ffffff;
+  color: #b53fff;
   text-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.5);
   animation: rgbGlow 3s infinite;
   text-align: center;
   margin-top: 1vh;
 }
 
+.stay-tuned {
+  font-size: 5rem; /* Adjust size as needed */
+  color: #ff84fd; /* Example color */
+}
 
 @media (max-width: 768px) {
   .logo-container img {

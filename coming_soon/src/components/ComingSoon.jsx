@@ -61,12 +61,14 @@ const ComingSoon = () => {
       </div>
 
       {/* Main Content */}
-  <div className="text-center z-10">
-    <h1 className="text-purple-500 text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold animate__animated animate__fadeIn">
-      Coming Soon
-    </h1>
-    <p className="text-purple-200 mt-4 text-2xl sm:text-2xl md:text-3xl">Stay tuned for something awesome!</p>
-  </div>
+      <div className="text-center z-10">
+      <h1 className="coming-soon handjet-custom animate__animated animate__fadeIn">
+        Coming Soon
+      </h1>
+      <p className="stay-tuned handjet-custom">
+        Stay tuned for something awesome!
+      </p>
+    </div>
 
       {/* Social Links */}
       <div className="absolute bottom-4 flex space-x-4 z-10">
