@@ -62,22 +62,22 @@ const ComingSoon = () => {
 
       {/* Main Content */}
   <div className="text-center z-10">
-    <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold animate__animated animate__fadeIn">
+    <h1 className="text-purple-500 text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold animate__animated animate__fadeIn">
       Coming Soon
     </h1>
-    <p className="mt-4 text-lg sm:text-xl md:text-2xl">Stay tuned for something awesome!</p>
+    <p className="text-purple-200 mt-4 text-2xl sm:text-2xl md:text-3xl">Stay tuned for something awesome!</p>
   </div>
 
       {/* Social Links */}
       <div className="absolute bottom-4 flex space-x-4 z-10">
         
-      <a href="https://chat.whatsapp.com/JAkwVFxi68a4JZYZvjSVu2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
+      <a href="https://chat.whatsapp.com/JAkwVFxi68a4JZYZvjSVu2" target="_blank" rel="noopener noreferrer" className="text-whatsapp-green hover:text-gray-400 icon">
       <i className="fab fa-whatsapp fa-2x"></i>
       </a>
       
-      <a href="https://www.instagram.com/solacestudiobu/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
-      <i className="fab fa-instagram fa-2x"></i>
-      </a>
+      <a href="https://instagram.com/solacestudiobu/" className="text-instagram-pink hover:text-instagram-pink-dark">
+  <i className="fab fa-instagram"></i>
+</a>
       
       <a href="https://discord.gg/FGjJJQEtJv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
       <i className="fab fa-discord fa-2x"></i>
