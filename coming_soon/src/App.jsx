@@ -1,6 +1,8 @@
 import React from 'react';
 import ComingSoon from './components/ComingSoon';
 import './index.css';
+// src/index.js or src/App.js
+import './components/ComingSoon.css';
 
 function App() {
   return (
@@ -9,3 +11,5 @@ function App() {
 }
 
 export default App;
+
+
