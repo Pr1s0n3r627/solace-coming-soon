@@ -7,7 +7,7 @@ const ComingSoon = () => {
   useEffect(() => {
     const circles = document.querySelectorAll('.circles li');
     circles.forEach(circle => {
-      const randomColor = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.2)`;
+      const randomColor = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.7)`;
       circle.style.background = randomColor;
     });
   }, []);
@@ -17,6 +17,16 @@ const ComingSoon = () => {
       {/* Background Animation */}
       <div className="area">
         <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>
