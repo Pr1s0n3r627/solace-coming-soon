@@ -22,8 +22,9 @@ const ComingSoon = () => {
       <img src={clubLogo} alt="Club Logo" className="logo top-left" />
 
       {/* University Logo */}
-      <img src={universityLogo} alt="University Logo" className="logo top-right" />
-      
+      <a href="https://www.bennett.edu.in/" target="_blank" rel="noopener noreferrer">
+          <img src={universityLogo} alt="University Logo" className="logo top-right" />
+        </a>
       {/* Background Animation */}
       <div className="area">
         <ul className="circles">
