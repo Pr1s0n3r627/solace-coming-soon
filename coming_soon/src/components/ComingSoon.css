@@ -367,9 +367,75 @@
   right: 20px;
 }
 
+.icon i {
+  font-size: 50px; /* Adjust this value for the default size */
+  transition: font-size 0.3s ease, color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for size, color, and shadow */
+}
+
+.icon:hover i {
+  font-size: 55px; /* Increase size on hover */
+  text-shadow: 
+    0 0 5px rgb(0, 255, 17), 
+    0 0 10px rgba(72, 255, 0, 0.8), 
+    0 0 15px rgba(0, 255, 42, 0.7), 
+    0 0 20px rgba(0, 128, 28, 0.6), 
+    0 0 25px rgba(0, 255, 8, 0.5);
+}
+/* src/styles/ComingSoon.css */
+
+@keyframes rgbGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.35), 0 0 10px rgba(255, 0, 0, 0.3), 0 0 15px rgba(255, 0, 0, 0.25);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.35), 0 0 20px rgba(0, 255, 0, 0.3), 0 0 30px rgba(0, 255, 0, 0.25);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(0, 0, 255, 0.35), 0 0 10px rgba(0, 0, 255, 0.3), 0 0 15px rgba(0, 0, 255, 0.25);
+  }
+}
+
+.coming-soon {
+  font-size: 12rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.5);
+  animation: rgbGlow 3s infinite;
+  text-align: center;
+  margin-top: 1vh;
+}
+
 
 @media (max-width: 768px) {
   .logo-container img {
     width: 100px; /* Smaller logos for smaller screens */
+  }
+}
+
+@media (max-width: 640px) {
+  .circles li {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (min-width: 640px) {
+  .circles li {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .circles li {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .circles li {
+    width: 40px;
+    height: 40px;
   }
 }

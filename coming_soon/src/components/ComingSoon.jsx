@@ -17,7 +17,7 @@ const ComingSoon = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-black text-white overflow-hidden">
-      
+  
       {/* Club Logo */}
       <img src={clubLogo} alt="Club Logo" className="logo top-left" />
 
@@ -61,10 +61,12 @@ const ComingSoon = () => {
       </div>
 
       {/* Main Content */}
-      <div className="text-center z-10">
-        <h1 className="text-6xl font-bold animate__animated animate__fadeIn">Coming Soon</h1>
-        <p className="mt-4 text-xl">Stay tuned for something awesome!</p>
-      </div>
+  <div className="text-center z-10">
+    <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold animate__animated animate__fadeIn">
+      Coming Soon
+    </h1>
+    <p className="mt-4 text-lg sm:text-xl md:text-2xl">Stay tuned for something awesome!</p>
+  </div>
 
       {/* Social Links */}
       <div className="absolute bottom-4 flex space-x-4 z-10">
