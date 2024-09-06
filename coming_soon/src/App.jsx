@@ -1,6 +1,6 @@
 import React from 'react';
 import ComingSoon from './components/ComingSoon';
-import './index.css'; // Ensure Tailwind styles are included
+import './index.css';
 
 function App() {
   return (
