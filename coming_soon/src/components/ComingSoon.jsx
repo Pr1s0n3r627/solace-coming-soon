@@ -29,20 +29,27 @@ const ComingSoon = () => {
       {/* Social Links */}
       <div className="absolute bottom-4 flex space-x-4 z-10">
         
-        <a href="https://chat.whatsapp.com/JAkwVFxi68a4JZYZvjSVu2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400"></a>
-          <i className="fab fa-whatsapp fa-2x"></i>        
+      <a href="https://chat.whatsapp.com/JAkwVFxi68a4JZYZvjSVu2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
+  <i className="fab fa-whatsapp fa-2x"></i>
+</a>
 
-        <a href="https://www.instagram.com/solacestudiobu/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400"></a>
-          <i className="fab fa-instagram fa-2x"></i>
-        <a href="https://discord.gg/FGjJJQEtJv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <i className="fab fa-discord fa-2x"></i>
-        </a>
-        <a href="mailto:solace.studio@bennett.edu.in" className="text-white hover:text-gray-400">
-          <i className="fas fa-envelope fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/company/solace-studio-bu/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-          <i className="fab fa-linkedin fa-2x"></i>
-        </a>
+<a href="https://www.instagram.com/solacestudiobu/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
+  <i className="fab fa-instagram fa-2x"></i>
+</a>
+
+<a href="https://discord.gg/FGjJJQEtJv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
+  <i className="fab fa-discord fa-2x"></i>
+</a>
+
+<a href="mailto:solace.studio@bennett.edu.in" className="text-white hover:text-gray-400 icon">
+  <i className="fas fa-envelope fa-2x"></i>
+</a>
+
+<a href="https://www.linkedin.com/company/solace-studio-bu/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
+  <i className="fab fa-linkedin fa-2x"></i>
+</a>
+
+
       </div>
     </div>
   );
