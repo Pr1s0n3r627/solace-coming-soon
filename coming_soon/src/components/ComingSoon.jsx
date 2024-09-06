@@ -75,9 +75,9 @@ const ComingSoon = () => {
       <i className="fab fa-whatsapp fa-2x"></i>
       </a>
       
-      <a href="https://instagram.com/solacestudiobu/" className="text-instagram-pink hover:text-instagram-pink-dark">
-  <i className="fab fa-instagram"></i>
-</a>
+      <a href="https://www.instagram.com/solacestudiobu/" target="_blank" rel="noopener noreferrer" className="text-instagram-pink hover:text-gray-400 icon">
+      <i className="fab fa-instagram fa-2x"></i>
+      </a>
       
       <a href="https://discord.gg/FGjJJQEtJv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 icon">
       <i className="fab fa-discord fa-2x"></i>
