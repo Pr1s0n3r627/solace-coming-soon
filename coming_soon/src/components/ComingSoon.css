@@ -370,15 +370,15 @@
 .top-left {
   top: 20px;
   left: 20px;
-  padding-top: 10px;
-  width: 250px;
+  padding-top: 0px;
+  width: 200px;
 }
 
 .top-right {
   top: 20px;
   right: 20px;
   padding-top: 0px;
-  width: 400px;
+  width: 600px;
 }
 
 .icon i {
@@ -424,80 +424,36 @@
   color: #ff84fd; /* Example color */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .logo-container img {
-    width: 80px; /* Smaller logos for smaller screens */
+    width: 100px; /* Smaller logos for smaller screens */
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
   .circles li {
-    width: 8px;
-    height: 8px;
-  }
-}
-
-@media (min-width: 320px) {
-  .circles li {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-@media (min-width: 480px) {
-  .circles li {
-    width: 24px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
   }
 }
 
 @media (min-width: 640px) {
   .circles li {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
   }
 }
 
-@media (min-width: 320px) {
-  .logo {
-    width: 60px;
+@media (min-width: 768px) {
+  .circles li {
+    width: 30px;
+    height: 30px;
   }
 }
 
-@media (min-width: 480px) {
-  .logo {
-    width: 80px;
-  }
-}
-
-@media (min-width: 320px) {
-  .coming-soon {
-    font-size: 2.5rem; /* Adjust size as needed */
-  }
-
-  .stay-tuned {
-    font-size: 1.25rem; /* Adjust size as needed */
-  }
-}
-
-@media (min-width: 480px) {
-  .coming-soon {
-    font-size: 3.5rem; /* Adjust size as needed */
-  }
-
-  .stay-tuned {
-    font-size: 1.75rem; /* Adjust size as needed */
-  }
-}
-
-@media (min-width: 320px) {
-  .icon {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 480px) {
-  .icon {
-    font-size: 2.5rem;
+@media (min-width: 1024px) {
+  .circles li {
+    width: 40px;
+    height: 40px;
   }
 }
