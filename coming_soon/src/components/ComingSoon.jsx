@@ -1,12 +1,32 @@
-import React from 'react';
+//import React from 'react';
+import React, { useEffect } from 'react';
 import './ComingSoon.css'; // Import the custom CSS for animations
 
 const ComingSoon = () => {
+
+  useEffect(() => {
+    const circles = document.querySelectorAll('.circles li');
+    circles.forEach(circle => {
+      const randomColor = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.2)`;
+      circle.style.background = randomColor;
+    });
+  }, []);
+
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-black text-white overflow-hidden">
       {/* Background Animation */}
       <div className="area">
         <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>
