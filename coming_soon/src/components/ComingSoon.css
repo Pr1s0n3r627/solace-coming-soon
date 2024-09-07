@@ -371,7 +371,7 @@
   top: 20px;
   left: 20px;
   padding-top: 0px;
-  width: 200px;
+  width: 250px;
 }
 
 .top-right {
@@ -424,11 +424,7 @@
   color: #ff84fd; /* Example color */
 }
 
-@media (max-width: 768px) {
-  .logo-container img {
-    width: 100px; /* Smaller logos for smaller screens */
-  }
-}
+
 
 @media (max-width: 640px) {
   .circles li {
@@ -456,4 +452,77 @@
     width: 40px;
     height: 40px;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  .coming-soon {
+    font-size: 5rem; /* Adjust size as needed */
+  }
+  .stay-tuned {
+    font-size: 2rem; /* Adjust size as needed */
+  }
+  .top-right {
+    width: 200px;
+  }
+  .top-left {
+    width: 100px;
+  }
+  
+}
+
+@media screen and (max-width: 820px) {
+  .coming-soon {
+    font-size: 9rem; /* Adjust size as needed */
+  }
+  .stay-tuned {
+    font-size: 3rem; /* Adjust size as needed */
+  }
+  .top-right {
+    width: 290px;
+  }
+  .top-left {
+    width: 170px;
+  }
+  .icon i {
+    font-size: 70px; /* Adjust this value for the default size */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .coming-soon {
+    font-size: 5rem; /* Adjust size as needed */
+  }
+  .stay-tuned {
+    font-size: 1.6rem; /* Adjust size as needed */
+  }
+  .top-right {
+    width: 200px;
+  }
+  .top-left {
+    width: 100px;
+  }
+  .icon i {
+    font-size: 50px; /* Adjust this value for the default size */
+  }
+  
+}
+
+@media screen and (max-width: 520px) {
+  .coming-soon {
+    font-size: 5rem; /* Adjust size as needed */
+  }
+  .stay-tuned {
+    font-size: 1.6rem; /* Adjust size as needed */
+  }
+  .top-right {
+    width: 200px;
+  }
+  .top-left {
+    width: 100px;
+  }
+  .icon i {
+    font-size: 40px; /* Adjust this value for the default size */
+  }
+  
 }
